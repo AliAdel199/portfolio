@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Detailed POS system capabilities for modern stores." />
-  <title>POS System | POSFlow</title>
+  <meta name="description" content="Detailed Kashir POS capabilities for modern stores." />
+  <title>POS System | Kashir POS</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -14,7 +14,7 @@
 <body data-page="pos">
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="logo" href="index.html">POS<span>Flow</span></a>
+      <a class="logo" href="index.html">Kashir<span>POS</span></a>
       <nav class="site-nav">
         <a href="index.html" data-i18n="navHome">Home</a>
         <a href="pos-system.html" data-i18n="navPos">POS System</a>
@@ -27,7 +27,7 @@
           <option value="en">English</option>
           <option value="ar">العربية</option>
         </select>
-        <a class="btn btn-small" href="#demo" data-i18n="navDemo">Try Demo</a>
+        <a class="btn btn-small" href="https://www.dropbox.com/scl/fi/wzuljpr54qapigaaq1cw1/KashirPosSetup.exe?rlkey=wb3aerxxhq4u6dooljkn7fkbg&st=8v32r5mj&dl=0" target="_blank" rel="noopener noreferrer" data-i18n="navDemo">Try Demo</a>
       </div>
     </div>
   </header>
@@ -39,12 +39,12 @@
           <p class="eyebrow" data-i18n="posTag">POS Platform</p>
           <h1 data-i18n="posTitle">Powerful tools built for daily retail operations</h1>
           <p class="hero-text" data-i18n="posDesc">
-            POSFlow connects checkout, product lifecycle, and reporting so your team can make better decisions in real time.
+            Kashir POS covers the complete cycle: sales, invoices, returns, installments, cash sessions, reporting, and permissions.
           </p>
-          <a class="btn" href="#demo" data-i18n="posDemo">Try Demo</a>
+          <a class="btn" href="https://www.dropbox.com/scl/fi/wzuljpr54qapigaaq1cw1/KashirPosSetup.exe?rlkey=wb3aerxxhq4u6dooljkn7fkbg&st=8v32r5mj&dl=0" target="_blank" rel="noopener noreferrer" data-i18n="posDemo">Try Demo</a>
         </div>
         <div class="hero-preview reveal">
-          <img src="images/screenshot-2.svg" alt="POS features" loading="lazy" />
+          <img src="images/screenshot-2.png" alt="POS features" loading="lazy" />
         </div>
       </div>
     </section>
@@ -52,31 +52,42 @@
     <section class="section">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow" data-i18n="posFeatureTag">Feature Cards</p>
-          <h2 data-i18n="posFeatureTitle">Detailed modules for each part of your workflow</h2>
+          <p class="eyebrow" data-i18n="posFeatureTag">Core Value</p>
+          <h2 data-i18n="posFeatureTitle">Built for speed, control, and offline reliability</h2>
         </div>
         <div class="features-grid">
           <article class="feature-card tilt-card reveal">
-            <span class="icon">🧾</span>
-            <h3 data-i18n="posCard1Title">Fast Checkout</h3>
-            <p data-i18n="posCard1Desc">Process sales quickly with barcode input, discounts, and multiple payment options.</p>
+            <span class="icon">🛰️</span>
+            <h3 data-i18n="posCard1Title">Offline-First Operation</h3>
+            <p data-i18n="posCard1Desc">Stable local operation with Local Isar, even when internet is unavailable.</p>
           </article>
           <article class="feature-card tilt-card reveal">
-            <span class="icon">🏬</span>
-            <h3 data-i18n="posCard2Title">Multi-Branch Control</h3>
-            <p data-i18n="posCard2Desc">Track stock and revenue across branches from one cloud dashboard.</p>
+            <span class="icon">🔗</span>
+            <h3 data-i18n="posCard2Title">Main/Sub Network Mode</h3>
+            <p data-i18n="posCard2Desc">Scale to multiple devices and branches with Local API over your internal network.</p>
           </article>
           <article class="feature-card tilt-card reveal">
-            <span class="icon">⏱️</span>
-            <h3 data-i18n="posCard3Title">Expiry Alerts</h3>
-            <p data-i18n="posCard3Desc">Receive proactive alerts and prioritize near-expiry products automatically.</p>
+            <span class="icon">🛡️</span>
+            <h3 data-i18n="posCard3Title">Advanced Security & Permissions</h3>
+            <p data-i18n="posCard3Desc">Detailed role-based permissions, audit logs, and session controls.</p>
           </article>
           <article class="feature-card tilt-card reveal">
-            <span class="icon">📈</span>
-            <h3 data-i18n="posCard4Title">Live Analytics</h3>
-            <p data-i18n="posCard4Desc">View trends, top products, and cashier performance in interactive reports.</p>
+            <span class="icon">📦</span>
+            <h3 data-i18n="posCard4Title">Smart Inventory & Expiry</h3>
+            <p data-i18n="posCard4Desc">Batch tracking, low-stock alerts, expiry status, and weighted barcode support.</p>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="posModulesTag">System Modules</p>
+          <h2 data-i18n="posModulesTitle">Complete operational coverage for modern stores</h2>
+          <p class="hero-text" data-i18n="posModulesDesc">From selling and inventory to installments, cash drawer, licensing, and backup automation.</p>
+        </div>
+        <div class="module-grid" id="modulesGrid"></div>
       </div>
     </section>
 
@@ -87,9 +98,9 @@
           <h2 data-i18n="posShotTitle">A clean interface your team can learn instantly</h2>
         </div>
         <div class="shots-grid">
-          <article class="shot-card reveal"><img src="images/screenshot-1.svg" alt="Point of sale dashboard" loading="lazy" /></article>
-          <article class="shot-card reveal"><img src="images/screenshot-2.svg" alt="Inventory summary" loading="lazy" /></article>
-          <article class="shot-card reveal"><img src="images/screenshot-3.svg" alt="Analytics module" loading="lazy" /></article>
+          <article class="shot-card reveal"><img src="images/screenshot-1.png" alt="Point of sale dashboard" loading="lazy" /></article>
+          <article class="shot-card reveal"><img src="images/screenshot-2.png" alt="Inventory summary" loading="lazy" /></article>
+          <article class="shot-card reveal"><img src="images/screenshot-3.png" alt="Analytics module" loading="lazy" /></article>
         </div>
       </div>
     </section>
@@ -98,14 +109,14 @@
       <div class="container cta-box reveal">
         <h2 data-i18n="posCtaTitle">Test the full POS workflow now</h2>
         <p data-i18n="posCtaDesc">Open a demo store, add products, and run transactions in minutes.</p>
-        <a class="btn" href="index.html#video" data-i18n="posCtaBtn">Launch Demo</a>
+        <a class="btn" href="https://www.dropbox.com/scl/fi/wzuljpr54qapigaaq1cw1/KashirPosSetup.exe?rlkey=wb3aerxxhq4u6dooljkn7fkbg&st=8v32r5mj&dl=0" target="_blank" rel="noopener noreferrer" data-i18n="posCtaBtn">Launch Demo</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>© <span id="year"></span> POSFlow SaaS.</p>
+      <p>© <span id="year"></span> Kashir POS.</p>
       <a href="gallery.html" data-i18n="footerGallery">View Gallery</a>
     </div>
   </footer>

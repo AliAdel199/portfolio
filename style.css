@@ -339,6 +339,37 @@ select:focus {
   gap: 1rem;
 }
 
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.module-card {
+  background: linear-gradient(165deg, #ffffff, #f4f8ff);
+  border: var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1.1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.module-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.7rem;
+}
+
+.module-list {
+  margin: 0;
+  padding-inline-start: 1rem;
+  display: grid;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
 .gallery-item {
   margin: 0;
   background: var(--surface);
@@ -460,7 +491,8 @@ html[dir="rtl"] .site-nav {
   .contact-grid,
   .features-grid,
   .shots-grid,
-  .gallery-grid {
+  .gallery-grid,
+  .module-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -486,7 +518,8 @@ html[dir="rtl"] .site-nav {
   .contact-grid,
   .features-grid,
   .shots-grid,
-  .gallery-grid {
+  .gallery-grid,
+  .module-grid {
     grid-template-columns: 1fr;
   }
 

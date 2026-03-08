@@ -5,25 +5,25 @@ const translations = {
     navGallery: "Gallery",
     navContact: "Contact",
     navDemo: "Try Demo",
-    heroTag: "Trusted by modern retailers",
+    heroTag: "Offline-ready retail platform",
     heroTitle: "Smart POS System for Modern Stores",
-    heroDesc: "Run checkout, inventory, analytics, and smart expiry tracking from one elegant dashboard built for speed.",
+    heroDesc: "Kashir POS runs sales, stock, returns, installments, and reporting in one fast interface with local-first stability.",
     heroBtnDemo: "Try Demo",
     heroBtnVideo: "Watch Video",
     featuresTag: "Core Features",
     featuresTitle: "Everything your store needs in one platform",
-    fSales: "Sales Management",
-    fInventory: "Inventory Management",
-    fExpiry: "Smart Expiry System",
-    fReports: "Reports and Analytics",
-    fBarcode: "Barcode Support",
+    fSales: "Fast Sales & Checkout",
+    fInventory: "Advanced Inventory",
+    fExpiry: "Smart Expiry Tracking",
+    fReports: "Reports & Analytics",
+    fBarcode: "Barcode + Weighted Items",
     fScale: "Scale Integration",
     screenTag: "Product Screenshots",
     screenTitle: "Designed for clarity and speed at checkout",
     videoTag: "Video Demo",
     videoTitle: "See how quickly your team can complete a sale",
     ctaTitle: "Ready to modernize your store operations?",
-    ctaDesc: "Launch your demo environment in minutes and test every POS feature.",
+    ctaDesc: "Launch your demo environment in minutes and test every Kashir POS feature.",
     ctaBtn: "Try Demo",
     contactTag: "Contact",
     contactTitle: "Talk to our POS experts",
@@ -34,20 +34,23 @@ const translations = {
     formSubmit: "Send Request",
     footerLink: "Explore POS System",
     footerGallery: "View Gallery",
-    posTag: "POS Platform",
-    posTitle: "Powerful tools built for daily retail operations",
-    posDesc: "POSFlow connects checkout, product lifecycle, and reporting so your team can make better decisions in real time.",
+    posTag: "Kashir POS Platform",
+    posTitle: "Full retail operations from one stable local system",
+    posDesc: "Kashir POS covers the complete cycle: sales, invoices, returns, installments, cash sessions, reporting, and permissions.",
     posDemo: "Try Demo",
-    posFeatureTag: "Feature Cards",
-    posFeatureTitle: "Detailed modules for each part of your workflow",
-    posCard1Title: "Fast Checkout",
-    posCard1Desc: "Process sales quickly with barcode input, discounts, and multiple payment options.",
-    posCard2Title: "Multi-Branch Control",
-    posCard2Desc: "Track stock and revenue across branches from one cloud dashboard.",
-    posCard3Title: "Expiry Alerts",
-    posCard3Desc: "Receive proactive alerts and prioritize near-expiry products automatically.",
-    posCard4Title: "Live Analytics",
-    posCard4Desc: "View trends, top products, and cashier performance in interactive reports.",
+    posFeatureTag: "Core Value",
+    posFeatureTitle: "Built for speed, control, and offline reliability",
+    posCard1Title: "Offline-First Operation",
+    posCard1Desc: "Stable local operation with Local Isar, even when internet is unavailable.",
+    posCard2Title: "Main/Sub Network Mode",
+    posCard2Desc: "Scale to multiple devices and branches with Local API over your internal network.",
+    posCard3Title: "Advanced Security & Permissions",
+    posCard3Desc: "Detailed role-based permissions, audit logs, and session controls.",
+    posCard4Title: "Smart Inventory & Expiry",
+    posCard4Desc: "Batch tracking, low-stock alerts, expiry status, and weighted barcode support.",
+    posModulesTag: "System Modules",
+    posModulesTitle: "Complete operational coverage for modern stores",
+    posModulesDesc: "From selling and inventory to installments, cash drawer, licensing, and backup automation.",
     posShotTag: "Screenshots",
     posShotTitle: "A clean interface your team can learn instantly",
     posCtaTitle: "Test the full POS workflow now",
@@ -72,25 +75,25 @@ const translations = {
     navGallery: "معرض المشاريع",
     navContact: "تواصل معنا",
     navDemo: "جرّب النسخة",
-    heroTag: "موثوق من المتاجر الحديثة",
+    heroTag: "منصة تجزئة تعمل بثبات محليًا",
     heroTitle: "نظام نقاط بيع ذكي للمتاجر الحديثة",
-    heroDesc: "أدِر المبيعات والمخزون والتحليلات وتتبع الصلاحية من لوحة واحدة سريعة وأنيقة.",
+    heroDesc: "Kashir POS يدير البيع والمخزون والمرتجعات والأقساط والتقارير من واجهة واحدة سريعة مع استقرار تشغيل محلي.",
     heroBtnDemo: "جرّب النسخة",
     heroBtnVideo: "شاهد الفيديو",
     featuresTag: "المزايا الأساسية",
     featuresTitle: "كل ما يحتاجه متجرك في منصة واحدة",
-    fSales: "إدارة المبيعات",
-    fInventory: "إدارة المخزون",
-    fExpiry: "نظام صلاحية ذكي",
-    fReports: "التقارير والتحليلات",
-    fBarcode: "دعم الباركود",
+    fSales: "بيع وكاشير سريع",
+    fInventory: "إدارة مخزون متقدمة",
+    fExpiry: "تتبع صلاحية ذكي",
+    fReports: "تقارير وتحليلات",
+    fBarcode: "باركود + منتجات موزونة",
     fScale: "تكامل الموازين",
     screenTag: "لقطات المنتج",
     screenTitle: "تصميم واضح وسريع لعمليات الدفع",
     videoTag: "عرض فيديو",
     videoTitle: "شاهد كيف ينجز فريقك عملية البيع بسرعة",
     ctaTitle: "جاهز لتطوير عمليات متجرك؟",
-    ctaDesc: "أنشئ بيئة تجريبية خلال دقائق واختبر جميع مزايا النظام.",
+    ctaDesc: "أنشئ بيئة تجريبية خلال دقائق واختبر جميع مزايا Kashir POS.",
     ctaBtn: "جرّب النسخة",
     contactTag: "التواصل",
     contactTitle: "تحدث مع خبراء نقاط البيع",
@@ -101,20 +104,23 @@ const translations = {
     formSubmit: "إرسال الطلب",
     footerLink: "استكشف نظام نقاط البيع",
     footerGallery: "عرض المعرض",
-    posTag: "منصة نقاط البيع",
-    posTitle: "أدوات قوية لعمليات البيع اليومية",
-    posDesc: "يربط POSFlow بين الدفع ودورة المنتجات والتقارير لاتخاذ قرارات أسرع في الوقت الحقيقي.",
+    posTag: "منصة Kashir POS",
+    posTitle: "تشغيل كامل للمتجر من نظام محلي ثابت",
+    posDesc: "Kashir POS يغطي دورة العمل كاملة: بيع، فواتير، مرتجعات، أقساط، جلسات صندوق، تقارير، وصلاحيات.",
     posDemo: "جرّب النسخة",
-    posFeatureTag: "بطاقات المزايا",
-    posFeatureTitle: "وحدات تفصيلية لكل جزء من سير العمل",
-    posCard1Title: "دفع سريع",
-    posCard1Desc: "نفّذ عمليات البيع بسرعة عبر الباركود والخصومات وطرق دفع متعددة.",
-    posCard2Title: "إدارة الفروع",
-    posCard2Desc: "تابع المخزون والإيرادات في جميع الفروع من لوحة سحابية واحدة.",
-    posCard3Title: "تنبيهات الصلاحية",
-    posCard3Desc: "استقبل تنبيهات استباقية وأعطِ أولوية للمنتجات القريبة من الانتهاء.",
-    posCard4Title: "تحليلات مباشرة",
-    posCard4Desc: "اعرض الاتجاهات والمنتجات الأعلى أداءً وكفاءة الكاشير بتقارير تفاعلية.",
+    posFeatureTag: "القيمة الأساسية",
+    posFeatureTitle: "مصمم للسرعة والتحكم والثبات بدون إنترنت",
+    posCard1Title: "تشغيل محلي أولًا",
+    posCard1Desc: "عمل مستقر عبر Local Isar حتى عند انقطاع الإنترنت.",
+    posCard2Title: "وضع الشبكة Main/Sub",
+    posCard2Desc: "التوسع لأكثر من جهاز وفرع عبر Local API داخل الشبكة الداخلية.",
+    posCard3Title: "أمان وصلاحيات متقدمة",
+    posCard3Desc: "صلاحيات تفصيلية حسب الدور مع تدقيق وسجلات وجلسات مستخدمين.",
+    posCard4Title: "مخزون وصلاحية ذكي",
+    posCard4Desc: "تتبع الدفعات والصلاحية والتنبيهات ودعم باركود المواد الموزونة.",
+    posModulesTag: "وحدات النظام",
+    posModulesTitle: "تغطية تشغيلية كاملة للمتاجر الحديثة",
+    posModulesDesc: "من البيع والمخزون إلى الأقساط والصندوق والتراخيص والنسخ الاحتياطي الآلي.",
     posShotTag: "اللقطات",
     posShotTitle: "واجهة نظيفة يتعلمها فريقك بسرعة",
     posCtaTitle: "اختبر دورة البيع الكاملة الآن",
@@ -135,6 +141,270 @@ const translations = {
   }
 };
 
+const moduleCatalog = {
+  en: [
+    {
+      title: "POS Sales",
+      items: [
+        "Fast cashier UI with barcode support",
+        "Manual item entry and invoice-level discounts",
+        "Cash, credit, and installment payments",
+        "Open tabs and recover pending invoices"
+      ]
+    },
+    {
+      title: "Inventory Management",
+      items: [
+        "Products, categories, suppliers, and shelf location",
+        "Batch management with expiry tracking",
+        "Low stock and near-expiry daily alerts",
+        "Weighted products and scale barcode parsing"
+      ]
+    },
+    {
+      title: "Import & Export",
+      items: [
+        "Export inventory to Excel and CSV/TXT",
+        "Import from Excel with barcode matching updates",
+        "Validation pass with invalid row summary"
+      ]
+    },
+    {
+      title: "Customers & Loyalty",
+      items: [
+        "Full customer profile and quick search",
+        "Points or cashback loyalty modes",
+        "Automatic linkage for credit and installments"
+      ]
+    },
+    {
+      title: "Invoices & Printing",
+      items: [
+        "Invoice history with date filters",
+        "Reprint and full invoice details",
+        "PDF print sizes: A4, A5, 80mm"
+      ]
+    },
+    {
+      title: "Returns",
+      items: [
+        "Return by original invoice reference",
+        "Quantity safeguards to prevent over-return",
+        "Automatic stock and cash-session updates"
+      ]
+    },
+    {
+      title: "Installments",
+      items: [
+        "Create plans from sales or manually",
+        "Track status: active, completed, late, canceled",
+        "Today and next 7 days dues overview"
+      ]
+    },
+    {
+      title: "Cash Drawer",
+      items: [
+        "Open/close sessions with expected vs actual balance",
+        "Register withdrawals and deposits with reasons",
+        "Daily session and net cash summaries"
+      ]
+    },
+    {
+      title: "Reports & Analytics",
+      items: [
+        "Daily/monthly sales and invoice count",
+        "Returns, net performance, and top products",
+        "Advanced metrics by plan: profit, margin, peak hours"
+      ]
+    },
+    {
+      title: "Users & Permissions",
+      items: [
+        "Role-based access with granular permissions",
+        "User lifecycle: add, edit, disable, delete",
+        "Audit logs and account lock/unlock controls"
+      ]
+    },
+    {
+      title: "Backup & Restore",
+      items: [
+        "Manual ZIP backup and full restore",
+        "Scheduled auto-backup with retention control",
+        "Track last run and last backup error"
+      ]
+    },
+    {
+      title: "Main/Sub Sync",
+      items: [
+        "Local Isar single-device mode",
+        "Local API Main/Sub mode over LAN",
+        "Live SSE updates for sales, stock, and installments"
+      ]
+    },
+    {
+      title: "Licensing & Plans",
+      items: [
+        "Token activation bound to device fingerprint",
+        "Multiple subscription plans and feature limits",
+        "Plan-based enable/disable for advanced modules"
+      ]
+    },
+    {
+      title: "System Health",
+      items: [
+        "API connectivity checks",
+        "Database and backup status checks",
+        "Operational logs for users and sensitive actions"
+      ]
+    }
+  ],
+  ar: [
+    {
+      title: "البيع ونقطة البيع",
+      items: [
+        "واجهة كاشير سريعة مع دعم الباركود",
+        "إضافة يدوية وخصومات على مستوى الفاتورة",
+        "طرق دفع نقدي وآجل وأقساط",
+        "تبويبات مفتوحة واسترجاع الفواتير غير المكتملة"
+      ]
+    },
+    {
+      title: "إدارة المخزون",
+      items: [
+        "إدارة المنتجات والفئات والموردين وموقع الرف",
+        "إدارة الدفعات وتتبع تاريخ الصلاحية",
+        "تنبيهات يومية للمخزون المنخفض وقرب الانتهاء",
+        "دعم المنتجات الموزونة وتحليل باركود الميزان"
+      ]
+    },
+    {
+      title: "الاستيراد والتصدير",
+      items: [
+        "تصدير المخزون إلى Excel وCSV/TXT",
+        "استيراد من Excel مع تحديث السجلات المطابقة بالباركود",
+        "فحص الصفوف غير الصالحة مع ملخص واضح قبل الإكمال"
+      ]
+    },
+    {
+      title: "الزبائن والولاء",
+      items: [
+        "سجل زبائن كامل مع بحث سريع",
+        "نظام مكافآت بنقاط أو كاش باك",
+        "ربط تلقائي مع البيع الآجل والأقساط"
+      ]
+    },
+    {
+      title: "الفواتير والطباعة",
+      items: [
+        "شاشة فواتير مع فلاتر تاريخية",
+        "عرض التفاصيل الكاملة وإعادة الطباعة",
+        "طباعة PDF بمقاسات A4 وA5 و80mm"
+      ]
+    },
+    {
+      title: "المرتجعات",
+      items: [
+        "استرجاع من فاتورة فعلية عبر رقم الفاتورة",
+        "منع تجاوز الكمية المسترجعة",
+        "تحديث تلقائي للمخزون وجلسة الصندوق"
+      ]
+    },
+    {
+      title: "الأقساط",
+      items: [
+        "إنشاء خطط أقساط من البيع أو يدويًا",
+        "تتبع الحالات: نشط، مكتمل، متأخر، ملغي",
+        "عرض المستحق اليوم والمستحق خلال 7 أيام"
+      ]
+    },
+    {
+      title: "الصندوق والكاش",
+      items: [
+        "فتح وإغلاق الصندوق ومطابقة الرصيد",
+        "احتساب فرق العهدة زيادة أو نقص",
+        "سحب وإيداع أثناء الجلسة مع تسجيل السبب"
+      ]
+    },
+    {
+      title: "التقارير والتحليلات",
+      items: [
+        "مبيعات اليوم والشهر وعدد الفواتير",
+        "المسترجعات وصافي الأداء والأكثر مبيعًا",
+        "مؤشرات متقدمة حسب الباقة: الربح والهامش وساعات الذروة"
+      ]
+    },
+    {
+      title: "المستخدمون والصلاحيات",
+      items: [
+        "أدوار جاهزة وصلاحيات تفصيلية لكل شاشة",
+        "إدارة المستخدمين: إضافة، تعديل، تعطيل، حذف",
+        "سجل تدقيق وقفل/فتح الحساب إداريًا"
+      ]
+    },
+    {
+      title: "النسخ الاحتياطي والاستعادة",
+      items: [
+        "نسخ احتياطي يدوي ZIP واستعادة كاملة",
+        "نسخ تلقائي مجدول مع سياسة احتفاظ",
+        "متابعة آخر تشغيل وآخر خطأ للنسخ"
+      ]
+    },
+    {
+      title: "المزامنة Main/Sub",
+      items: [
+        "وضع Local Isar للجهاز الواحد",
+        "وضع Local API داخل الشبكة",
+        "بث SSE مباشر لتحديث المبيعات والمخزون والأقساط"
+      ]
+    },
+    {
+      title: "التراخيص والباقات",
+      items: [
+        "تفعيل عبر Token مرتبط ببصمة الجهاز",
+        "خطط اشتراك متعددة وحدود مختلفة",
+        "تمكين/تعطيل الميزات حسب الباقة"
+      ]
+    },
+    {
+      title: "صحة النظام والسجلات",
+      items: [
+        "فحص اتصال API وقاعدة البيانات",
+        "فحص حالة النسخ الاحتياطي",
+        "سجلات نشاط المستخدمين والعمليات الحساسة"
+      ]
+    }
+  ]
+};
+
+function renderModules(lang) {
+  const grid = document.getElementById("modulesGrid");
+  if (!grid) return;
+
+  const modules = moduleCatalog[lang] || moduleCatalog.en;
+  grid.innerHTML = "";
+
+  modules.forEach((module) => {
+    const card = document.createElement("article");
+    card.className = "module-card tilt-card";
+
+    const title = document.createElement("h3");
+    title.textContent = module.title;
+
+    const list = document.createElement("ul");
+    list.className = "module-list";
+
+    module.items.forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      list.appendChild(li);
+    });
+
+    card.appendChild(title);
+    card.appendChild(list);
+    grid.appendChild(card);
+  });
+}
+
 function applyLanguage(lang) {
   const dict = translations[lang] || translations.en;
   document.documentElement.lang = lang;
@@ -154,12 +424,16 @@ function applyLanguage(lang) {
     }
   });
 
+  renderModules(lang);
+
   const switcher = document.getElementById("langSwitcher");
   if (switcher) {
     switcher.value = lang;
   }
 
   localStorage.setItem("site-language", lang);
+
+  initTilt();
 }
 
 function initLanguage() {
@@ -196,6 +470,9 @@ function initReveal() {
 
 function initTilt() {
   document.querySelectorAll(".tilt-card").forEach((card) => {
+    if (card.dataset.tiltBound === "1") return;
+    card.dataset.tiltBound = "1";
+
     card.addEventListener("mousemove", (event) => {
       const rect = card.getBoundingClientRect();
       const px = (event.clientX - rect.left) / rect.width;
