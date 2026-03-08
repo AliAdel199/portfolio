@@ -317,6 +317,22 @@ h3 {
   gap: 0.8rem;
 }
 
+.contact-direct {
+  align-content: center;
+  justify-items: start;
+  min-height: 220px;
+}
+
+.contact-direct p {
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+html[dir="rtl"] .contact-direct {
+  justify-items: end;
+  text-align: right;
+}
+
 input,
 textarea {
   font: inherit;
