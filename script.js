@@ -551,10 +551,13 @@ function initForms() {
 
       const text = encodeURIComponent(lines.join("\n"));
       const waUrl = phone
-        ? `https://wa.me/${phone}?text=${text}`
-        : `https://wa.me/?text=${text}`;
+        ? `https://api.whatsapp.com/send?phone=${phone}&text=${text}`
+        : `https://api.whatsapp.com/send?text=${text}`;
 
-      window.open(waUrl, "_blank", "noopener,noreferrer");
+      const popup = window.open(waUrl, "_blank", "noopener,noreferrer");
+      if (!popup) {
+        window.location.assign(waUrl);
+      }
       form.reset();
     });
   });
