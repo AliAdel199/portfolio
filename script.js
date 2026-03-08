@@ -523,6 +523,38 @@ function initForms() {
   document.querySelectorAll(".contact-form").forEach((form) => {
     form.addEventListener("submit", (event) => {
       event.preventDefault();
+      const nameInput = form.querySelector('input[type="text"]');
+      const emailInput = form.querySelector('input[type="email"]');
+      const messageInput = form.querySelector("textarea");
+      const phoneRaw = form.dataset.whatsappNumber || "";
+      const phone = phoneRaw.replace(/\D/g, "");
+      const lang = document.documentElement.lang === "ar" ? "ar" : "en";
+
+      const name = (nameInput?.value || "").trim();
+      const email = (emailInput?.value || "").trim();
+      const message = (messageInput?.value || "").trim();
+
+      const lines =
+        lang === "ar"
+          ? [
+              "مرحبا فريق Kashir POS",
+              `الاسم: ${name}`,
+              `البريد: ${email}`,
+              `الرسالة: ${message}`
+            ]
+          : [
+              "Hello Kashir POS Team,",
+              `Name: ${name}`,
+              `Email: ${email}`,
+              `Message: ${message}`
+            ];
+
+      const text = encodeURIComponent(lines.join("\n"));
+      const waUrl = phone
+        ? `https://wa.me/${phone}?text=${text}`
+        : `https://wa.me/?text=${text}`;
+
+      window.open(waUrl, "_blank", "noopener,noreferrer");
       form.reset();
     });
   });
