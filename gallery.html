@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="POS project gallery with interactive lightbox." />
+  <title>Gallery | POSFlow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body data-page="gallery">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">POS<span>Flow</span></a>
+      <nav class="site-nav">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="pos-system.html" data-i18n="navPos">POS System</a>
+        <a href="gallery.html" data-i18n="navGallery">Gallery</a>
+        <a href="index.html#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <label class="visually-hidden" for="langSwitcher">Language</label>
+        <select id="langSwitcher" class="lang-switcher" aria-label="Language Switcher">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+        </select>
+        <a class="btn btn-small" href="index.html#video" data-i18n="navDemo">Try Demo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-hero">
+      <div class="container section-head reveal">
+        <p class="eyebrow" data-i18n="galleryTag">Project Gallery</p>
+        <h1 data-i18n="galleryTitle">POS interfaces and implementation snapshots</h1>
+        <p class="hero-text" data-i18n="galleryDesc">Explore dashboards, checkout flows, inventory pages, and analytics screens.</p>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="container">
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-1.svg" data-full="images/gallery-1.svg" alt="Dashboard view" loading="lazy" />
+            <figcaption data-i18n="g1">Main Dashboard</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-2.svg" data-full="images/gallery-2.svg" alt="Checkout flow" loading="lazy" />
+            <figcaption data-i18n="g2">Checkout Screen</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-3.svg" data-full="images/gallery-3.svg" alt="Inventory module" loading="lazy" />
+            <figcaption data-i18n="g3">Inventory Module</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-4.svg" data-full="images/gallery-4.svg" alt="Stock alerts" loading="lazy" />
+            <figcaption data-i18n="g4">Stock Alerts</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-5.svg" data-full="images/gallery-5.svg" alt="Analytics dashboard" loading="lazy" />
+            <figcaption data-i18n="g5">Analytics Board</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-6.svg" data-full="images/gallery-6.svg" alt="Product profile" loading="lazy" />
+            <figcaption data-i18n="g6">Product Detail</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-7.svg" data-full="images/gallery-7.svg" alt="Cashier control" loading="lazy" />
+            <figcaption data-i18n="g7">Cashier Session</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-8.svg" data-full="images/gallery-8.svg" alt="Receipt preview" loading="lazy" />
+            <figcaption data-i18n="g8">Receipt Preview</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-9.svg" data-full="images/gallery-9.svg" alt="Branch comparison" loading="lazy" />
+            <figcaption data-i18n="g9">Branch Insights</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <img id="lightboxImg" src="" alt="Expanded preview" />
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> POSFlow SaaS.</p>
+      <a href="pos-system.html" data-i18n="footerLink">Explore POS System</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Detailed POS system capabilities for modern stores." />
+  <title>POS System | POSFlow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body data-page="pos">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">POS<span>Flow</span></a>
+      <nav class="site-nav">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="pos-system.html" data-i18n="navPos">POS System</a>
+        <a href="gallery.html" data-i18n="navGallery">Gallery</a>
+        <a href="index.html#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <label class="visually-hidden" for="langSwitcher">Language</label>
+        <select id="langSwitcher" class="lang-switcher" aria-label="Language Switcher">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+        </select>
+        <a class="btn btn-small" href="#demo" data-i18n="navDemo">Try Demo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow" data-i18n="posTag">POS Platform</p>
+          <h1 data-i18n="posTitle">Powerful tools built for daily retail operations</h1>
+          <p class="hero-text" data-i18n="posDesc">
+            POSFlow connects checkout, product lifecycle, and reporting so your team can make better decisions in real time.
+          </p>
+          <a class="btn" href="#demo" data-i18n="posDemo">Try Demo</a>
+        </div>
+        <div class="hero-preview reveal">
+          <img src="images/screenshot-2.svg" alt="POS features" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="posFeatureTag">Feature Cards</p>
+          <h2 data-i18n="posFeatureTitle">Detailed modules for each part of your workflow</h2>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card tilt-card reveal">
+            <span class="icon">🧾</span>
+            <h3 data-i18n="posCard1Title">Fast Checkout</h3>
+            <p data-i18n="posCard1Desc">Process sales quickly with barcode input, discounts, and multiple payment options.</p>
+          </article>
+          <article class="feature-card tilt-card reveal">
+            <span class="icon">🏬</span>
+            <h3 data-i18n="posCard2Title">Multi-Branch Control</h3>
+            <p data-i18n="posCard2Desc">Track stock and revenue across branches from one cloud dashboard.</p>
+          </article>
+          <article class="feature-card tilt-card reveal">
+            <span class="icon">⏱️</span>
+            <h3 data-i18n="posCard3Title">Expiry Alerts</h3>
+            <p data-i18n="posCard3Desc">Receive proactive alerts and prioritize near-expiry products automatically.</p>
+          </article>
+          <article class="feature-card tilt-card reveal">
+            <span class="icon">📈</span>
+            <h3 data-i18n="posCard4Title">Live Analytics</h3>
+            <p data-i18n="posCard4Desc">View trends, top products, and cashier performance in interactive reports.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section screenshots">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="posShotTag">Screenshots</p>
+          <h2 data-i18n="posShotTitle">A clean interface your team can learn instantly</h2>
+        </div>
+        <div class="shots-grid">
+          <article class="shot-card reveal"><img src="images/screenshot-1.svg" alt="Point of sale dashboard" loading="lazy" /></article>
+          <article class="shot-card reveal"><img src="images/screenshot-2.svg" alt="Inventory summary" loading="lazy" /></article>
+          <article class="shot-card reveal"><img src="images/screenshot-3.svg" alt="Analytics module" loading="lazy" /></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="demo">
+      <div class="container cta-box reveal">
+        <h2 data-i18n="posCtaTitle">Test the full POS workflow now</h2>
+        <p data-i18n="posCtaDesc">Open a demo store, add products, and run transactions in minutes.</p>
+        <a class="btn" href="index.html#video" data-i18n="posCtaBtn">Launch Demo</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> POSFlow SaaS.</p>
+      <a href="gallery.html" data-i18n="footerGallery">View Gallery</a>
+    </div>
+  </footer>
+</body>
+</html>
